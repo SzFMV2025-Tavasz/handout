@@ -10,7 +10,7 @@ Az órák csütörtökönként a BA.F.06-ben vannak (távoktatásban, MS Teams-e
 |  4.|  03. 07.  | Software Architecture II. | Work Breakdown Structure (WBS) és design bemutatása                    |
 |  5.|  03. 14.  | Agile, SCRUM, Kanban      | konzultáció                                                            |
 |  6.|  03. 21.  | Verification & validation | konzultáció                                                            |
-|  7.|  03. 28.  | Rektori szünet            | konzultáció                                                            |
+|  7.|  03. 28.  | Rektori szünet            | Rektori szünet                                                            |
 |  8.|**04. 04.**| **1. demo**               | retrospektív, Sprint Planning, Design előkészítése                     |
 |  9.|  04. 11.  | Continuous Integration    | Work Breakdown Structure (WBS) és design bemutatása                    |
 | 10.|  04. 18.  | Review culture            | konzultáció                                                            |
