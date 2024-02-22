@@ -40,7 +40,7 @@ Határidő (hét)| feladat
     section Avalonia
         Avalonia-tutorial: active, avalonia-tutorial, 2024-02-15, 1w
     section Warm-up
-        Warm-up :active, warmup, 2023-02-22, 1w
+        Warm-up :active, warmup, 2024-02-22, 1w
     Csapat sorsolás :milestone, after warmup, 1d
     section Sprint 1
         Sprint 1 :active, sprint1, after warmup, 5w
