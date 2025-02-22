@@ -1,30 +1,30 @@
 # Ütemezés
 
-Az órák csütörtökönként a BA.F.06-ben vannak (távoktatásban, MS Teams-en), neptun szerint 08:00-10:35 között előadás és 10:45-11:30 között gyakorlat. (Ezek aránya valamint közte a szünet az aktuális előadásanyag és az igények szerint módosulhat). A „gyakorlat” nem labor, hanem sokkal inkább konzultáció!
+Az órák csütörtökönként a BC.2.202-ben vannak (távoktatásban, MS Teams-en), neptun szerint 09:50-12:25 között előadás és 12:35-13:20 között gyakorlat. (Ezek aránya valamint közte a szünet az aktuális előadásanyag és az igények szerint módosulhat). A „gyakorlat” nem labor, hanem sokkal inkább konzultáció!
 
 |hét |dátum      |előadás                    |gyakorlat                                                               |
 |---:|:---------:|:-------------------------:|:----------------------------------------------------------------------:|
-|  1.|  02. 15.  | Bevezető, áttekintés      | feladat és a munkafolyamat átfogó ismertetése, avalonia tutorial       |
-|  2.|  02. 22.  | Napi munka, verziókezelés | git, GitHub, IDE ismertetés, warmup feladat ismertetése                |
-|  3.|  02. 29.  | Software Architecture I.  | csapatsorsolás, Sprint Planning, Design előkészítése                   |
-|  4.|  03. 07.  | Software Architecture II. | Work Breakdown Structure (WBS) és design bemutatása                    |
-|  5.|  03. 14.  | Agile, SCRUM, Kanban      | konzultáció                                                            |
-|  6.|  03. 21.  | Verification & validation | konzultáció                                                            |
-|  7.|  03. 28.  | Rektori szünet            | Rektori szünet                                                            |
-|  8.|**04. 04.**| **1. demo**               | retrospektív, Sprint Planning, Design előkészítése                     |
-|  9.|  04. 11.  | Continuous Integration    | Work Breakdown Structure (WBS) és design bemutatása                    |
-| 10.|  04. 18.  | Review culture            | konzultáció                                                            |
-| 11.|  04. 25.  | Legacy code               | konzultáció                                                            |
-| 12.|  05. 02.  | ASPICE in nutshell v. Guest presentation        | konzultáció                                                            |
-| 13.|**05. 09.**| Összefoglalás, **2. demo**| retrospektív, tárgy feedback                                           |
-| 14.|**05. 16.**| **Zárthelyi dolgozat**    |                                                                        |
+|  1.|  02. 20.  | Napi munka, verziókezelés | feladat és a munkafolyamat átfogó ismertetése, avalonia tutorial       |
+|  2.|  02. 27.  | Software Architecture I.  | git, GitHub, IDE és warmup feladat ismertetése, csapatsorsolás         |
+|  3.|  03. 06.  | Software Architecture II. | Sprint Planning, Design előkészítése                                   |
+|  4.|  03. 13.  | Agile, SCRUM, Kanban      | Work Breakdown Structure (WBS) és design bemutatása                    |
+|  5.|  03. 20.  | Verification & validation | konzultáció                                                            |
+|  6.|  03. 27.  | Review culture            | konzultáció                                                            |
+|  7.|  04. 03.  | Continuous Integration    | konzultáció                                                            |
+|  8.|**04. 10.**| **1. demo**               | retrospektív, Sprint Planning, Design előkészítése                     |
+|  9.|  04. 17.  | Rektori szünet            | Rektori szünet, online konzultáció előre egyeztetett időpontban        |
+| 10.|  04. 24.  | Rektori szünet            | Rektori szünet, online konzultáció előre egyeztetett időpontban        |
+| 11.|  05. 01.  | Munkaszüneti nap          | Munkaszüneti nap, online konzultáció előre egyeztetett időpontban      |
+| 12.|  05. 08.  | ASPICE in nutshell        | konzultáció                                                            |
+| 13.|**05. 15.**| Összefoglalás, **2. demo**| retrospektív, tárgy feedback                                           |
+| 14.|**05. 22.**| **Zárthelyi dolgozat**    |                                                                        |
 
 
 ## Házi feladatok
 
 Határidő (hét)| feladat
 ---|--------
-2  | [Avalonia Tutorial teljesítése](https://docs.avaloniaui.net/tutorials/todo-list-app)
+2  | [Avalonia Tutorial teljesítése](https://github.com/AvaloniaUI/Avalonia.Samples/tree/main/src/Avalonia.Samples/CompleteApps/SimpleToDoList)
 3  | Warmup feladat
 4  | design dokumentumok bemutatása (statikus és dinamikus)
  
@@ -35,12 +35,12 @@ Határidő (hét)| feladat
     gantt
     dateFormat  YYYY-MM-DD
     axisFormat  %m-%d
-    title 2023/24 tanév II.félév
-    Bemutatkozás :milestone, 2024-02-15, 1d
+    title 2024/25 tanév II. félév
+    Bemutatkozás :milestone, 2025-02-20, 1d
     section Avalonia
-        Avalonia-tutorial: active, avalonia-tutorial, 2024-02-15, 1w
+        Avalonia-tutorial: active, avalonia-tutorial, 2025-02-20, 1w
     section Warm-up
-        Warm-up :active, warmup, 2024-02-22, 1w
+        Warm-up :active, warmup, 2025-02-27, 1w
     Csapat sorsolás :milestone, after warmup, 1d
     section Sprint 1
         Sprint 1 :active, sprint1, after warmup, 5w
@@ -48,9 +48,9 @@ Határidő (hét)| feladat
     section Sprint 2
         Sprint 2 :active, sprint2, after sprint1, 5w
     Demo 2 :milestone, after sprint2, 1d
-    Zárthelyi :milestone, 2024-05-16, 1d
-    click sprint1 href "./sprint_1.html"
-    click sprint2 href "./sprint_2.html"
+    Zárthelyi :milestone, 2025-05-22, 1d
+    click sprint1 href "./sprints/sprint_1.html"
+    click sprint2 href "./sprints/sprint_2.html"
 </div>
 
 
