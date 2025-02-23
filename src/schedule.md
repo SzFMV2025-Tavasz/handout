@@ -30,7 +30,7 @@ Határidő (hét)| feladat
  
 
 ## Gantt diagram
-
+{% raw %}
 <div class="mermaid">
  %%{init: { "gantt": { "startWeekOnDay": 4 } }}%%
     gantt
@@ -53,7 +53,7 @@ Határidő (hét)| feladat
     click sprint1 href "./sprints/sprint_1.html"
     click sprint2 href "./sprints/sprint_2.html"
 </div>
-
+{% endraw %}
 
 <!--
 # Házi feladat - 1. hét
