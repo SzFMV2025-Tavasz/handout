@@ -193,22 +193,24 @@
 <h2 id="gantt-diagram"><a class="header" href="#gantt-diagram">Gantt diagram</a></h2>
 <div class="mermaid">
     gantt
+    tickInterval 1week
+    weekday thursday
     dateFormat  YYYY-MM-DD
     axisFormat  %m-%d
     title 2024/25 tanév II. félév
-    Bemutatkozás :milestone, 2025-02-20, 1d
+    Bemutatkozás :milestone, 2025-02-20, 0d
     section Avalonia
         Avalonia-tutorial: active, avalonia-tutorial, 2025-02-20, 1w
     section Warm-up
         Warm-up :active, warmup, 2025-02-27, 1w
-    Csapat sorsolás :milestone, after warmup, 1d
+    Csapat sorsolás :milestone, after warmup, 0d
     section Sprint 1
         Sprint 1 :active, sprint1, after warmup, 5w
-    Demo 1 :milestone, after sprint1, 1d
+    Demo 1 :milestone, after sprint1, 0d
     section Sprint 2
         Sprint 2 :active, sprint2, after sprint1, 5w
-    Demo 2 :milestone, after sprint2, 1d
-    Zárthelyi :milestone, 2025-05-22, 1d
+    Demo 2 :milestone, after sprint2, 0d
+    Zárthelyi :milestone, 2025-05-22, 0d
     click sprint1 href "./sprints/sprint_1.html"
     click sprint2 href "./sprints/sprint_2.html"
 </div>
