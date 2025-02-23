@@ -33,7 +33,7 @@ Határidő (hét)| feladat
 <div class="mermaid">
     gantt
     tickInterval 1week
-    weekday thursday
+    weekday monday
     dateFormat  YYYY-MM-DD
     axisFormat  %m-%d
     title 2024/25 tanév II. félév
