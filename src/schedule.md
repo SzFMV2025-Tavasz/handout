@@ -32,6 +32,7 @@ Határidő (hét)| feladat
 ## Gantt diagram
 
 <div class="mermaid">
+ %%{init: { "gantt": { "startWeekOnDay": 4 } }}%%
     gantt
     dateFormat  YYYY-MM-DD
     axisFormat  %m-%d
