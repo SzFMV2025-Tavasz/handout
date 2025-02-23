@@ -32,7 +32,6 @@ Határidő (hét)| feladat
 ## Gantt diagram
 <div class="mermaid">
     gantt
-    weekday monday
     dateFormat  YYYY-MM-DD
     axisFormat  %m-%d
     title 2024/25 tanév II. félév
