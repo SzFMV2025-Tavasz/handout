@@ -32,7 +32,6 @@ Határidő (hét)| feladat
 ## Gantt diagram
 <div class="mermaid">
     gantt
-    tickInterval 1week
     weekday monday
     dateFormat  YYYY-MM-DD
     axisFormat  %m-%d
